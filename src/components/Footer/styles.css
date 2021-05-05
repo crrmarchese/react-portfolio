@@ -1,0 +1,16 @@
+.footer {
+    background-color: #171940;
+}
+
+.footer-social li {
+    background-color: transparent;
+}
+
+.footer-social li a{
+    color: var(--light);
+}
+
+.footer-social .css-fg745a svg:hover,
+.footer-social .css-1wr2mkb svg:hover {
+    color: #25D9D9;
+}
