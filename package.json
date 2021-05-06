@@ -51,6 +51,8 @@
     ]
   },
   "devDependencies": {
+    "@types/imagesloaded": "^4.1.2",
+    "@types/isotope-layout": "^3.0.8",
     "@types/react-router-dom": "^5.1.7",
     "@types/react-scroll": "^1.8.2",
     "@types/react-stickynode": "^3.0.1"
