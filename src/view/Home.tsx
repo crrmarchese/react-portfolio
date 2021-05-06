@@ -1,7 +1,8 @@
 import React from "react";
 import NavbarNav from "../components/Navbar/Navbar";
+import About from "../components/About/About";
+import Projects from "../components/Projects/Projects"
 import Footer from "../components/Footer/Footer";
-//import cmarcData from "../utils/cmarcData";
 import './styles.css';
 
 
@@ -11,6 +12,8 @@ function Home() {
       <NavbarNav
         mainlogo="logo.png"
       />
+      <About />
+      <Projects />
      <Footer  />
     </div>
   );
