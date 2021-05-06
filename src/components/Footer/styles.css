@@ -14,3 +14,14 @@
 .footer-social .css-1wr2mkb svg:hover {
     color: #25D9D9;
 }
+
+.footer-text {
+    color: var(--light);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.footer-text h6 {
+    font-weight: 700;
+}

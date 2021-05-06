@@ -11,15 +11,18 @@ const Footer = (props:any) => {
             <footer className="footer mt-auto py-3">
                 <div className="container">
                     <div className="row">
-                        <div className="col-12">
+                        <div className="col-sm-4">
 
                             <Fade delay={1000} direction="down" cascade> 
                                 <ul className="list-group list-group-horizontal footer-social">
-                                    <li className="list-group-item"><a href="https://www.linkedin.com/in/catherinemarchese/" title="LinkedIn" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} size="4x" /></a></li>
-                                    <li className="list-group-item"><a href="https://github.com/crrmarchese" title="GitHub" rel="noreferrer"><FontAwesomeIcon icon={faGithubSquare} size="4x" /></a></li>
+                                    <li className="list-group-item"><a href="https://www.linkedin.com/in/catherinemarchese/" title="LinkedIn" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} size="3x" /></a></li>
+                                    <li className="list-group-item"><a href="https://github.com/crrmarchese" title="GitHub" rel="noreferrer"><FontAwesomeIcon icon={faGithubSquare} size="3x" /></a></li>
                                 </ul>
                             </Fade>
                             
+                        </div>
+                        <div className="col-sm-8 text-right footer-text">
+                            <h6>Built with React</h6>
                         </div>
                     </div>
                 </div>
