@@ -28,7 +28,7 @@ const NavbarNav = (props:any) => {
                       to="/"
                       spy={true}
                       smooth={true}
-                      offset={-86}
+                      offset={-70}
                       duration={500}
                     >
                       Home
@@ -41,7 +41,7 @@ const NavbarNav = (props:any) => {
                       to="about"
                       spy={true}
                       smooth={true}
-                      offset={-86}
+                      offset={-70}
                       duration={500}
                     >
                       About
@@ -54,7 +54,7 @@ const NavbarNav = (props:any) => {
                       to="portfolio"
                       spy={true}
                       smooth={true}
-                      offset={-86}
+                      offset={-70}
                       duration={500}
                     >
                       Portfolio
@@ -67,7 +67,7 @@ const NavbarNav = (props:any) => {
                       to="/contact"
                       spy={true}
                       smooth={true}
-                      offset={-86}
+                      offset={-70}
                       duration={500}
                     >
                       Contact

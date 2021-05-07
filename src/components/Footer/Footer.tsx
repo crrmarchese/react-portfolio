@@ -5,7 +5,6 @@ import { faLinkedin, faGithubSquare } from "@fortawesome/free-brands-svg-icons";
 import './styles.css';
 
 const Footer = (props:any) => {
-   
     return (
         <React.Fragment>
             <footer className="footer mt-auto py-3">
