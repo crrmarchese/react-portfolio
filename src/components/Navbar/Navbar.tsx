@@ -16,7 +16,7 @@ const NavbarNav = (props:any) => {
           <Navbar collapseOnSelect className="test" variant="light" expand="lg">
             <Container>
               <Navbar.Brand href="./" className="logo_h"> 
-               <img src={"../../image/" + props.mainlogo} alt="Personal logo"  />
+               <img src={"../../images/" + props.mainlogo} alt="Personal logo"  />
              </Navbar.Brand>
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">
