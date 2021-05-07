@@ -7,9 +7,9 @@ import cmarcData from "../../utils/cmarcData";
 const About = (props:any) => {
     
     return (
-        <section id="about">
+        <section id="about" className="d-flex my-4">
             <Container>
-                <Row className="py-5 g-5">
+                <Row>
                     <Col> 
                     <div className="title">
                         <h2>{cmarcData.aboutme}</h2> 
