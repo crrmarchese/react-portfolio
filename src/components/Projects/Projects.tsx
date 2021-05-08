@@ -2,6 +2,8 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithubSquare } from "@fortawesome/free-brands-svg-icons";
 import cmarcData from "../../utils/cmarcData";
 import './styles.css';
 
@@ -20,11 +22,10 @@ const Projects = () => {
                             return (
                                 <Col className="col-md-6" key={project.id}>
                                      <div className="project-item">
-                                        <a href=".#">
+                                        <a href={`${project.projURL}`}>
                                             <img src={`/images/${project.projImage}`} alt={`${project.projName}`} className="img-fluid" />
                                         </a>
                                         <div className="content">
-                                            <h3>{project.projName}</h3>
                                             <div className="category">
 
                                                 {/* Loop through projCategory array items */}
@@ -37,8 +38,12 @@ const Projects = () => {
                                                 
                                             </div>
                                         </div>
-                                        <div className="project-details mt-3">
+                                        <div className="project-details mt-3 px-3 py-2">
+                                            <h3>{project.projName}</h3>
                                             <p>{project.projDetails}</p>
+                                            {/* TO DO: Conditional Rendering if no GitHub repo */}
+                                        
+                                            <p><a href={`${project.projCodeURL}`} title="GitHub" rel="noreferrer"><FontAwesomeIcon icon={faGithubSquare} size="2x" /></a></p>
                                         </div>
                                      </div>          
                                 </Col>
