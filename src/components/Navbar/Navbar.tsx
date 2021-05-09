@@ -13,19 +13,19 @@ const NavbarNav = (props:any) => {
       <Sticky top={0} innerZ={9999} activeClass="navbar_fixed">
 
       <header className="shadow-sm">
-          <Navbar collapseOnSelect className="test" variant="light" expand="lg">
+          <Navbar collapseOnSelect  variant="light" expand="lg">
             <Container>
               <Navbar.Brand href="./" className="logo_h"> 
                <img src={"../../images/" + props.mainlogo} alt="Personal logo"  />
              </Navbar.Brand>
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">
-                <ul className="nav navbar-nav m-auto">
+                <ul className="nav navbar-nav m-auto nav-pills">
                   <li className="nav-item">
                     <Link
                       className="nav-link"
                       activeClass="active"
-                      to="/"
+                      to="home"
                       spy={true}
                       smooth={true}
                       offset={-70}

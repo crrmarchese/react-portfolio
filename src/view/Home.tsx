@@ -9,14 +9,14 @@ import './styles.css';
 
 function Home() {
   return (
-    <div className="body_wrapper">
+    <div id="home" className="body_wrapper">
       <NavbarNav
         mainlogo="logo.png"
       />
       <About />
       <Projects />
       <Contact />
-     <Footer  />
+      <Footer  />
     </div>
   );
 }

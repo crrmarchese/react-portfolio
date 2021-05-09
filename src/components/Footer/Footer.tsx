@@ -14,8 +14,8 @@ const Footer = (props:any) => {
 
                             <Fade delay={1000} direction="down" cascade> 
                                 <ul className="list-group list-group-horizontal footer-social">
-                                    <li className="list-group-item"><a href="https://www.linkedin.com/in/catherinemarchese/" title="LinkedIn" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} size="3x" /></a></li>
-                                    <li className="list-group-item"><a href="https://github.com/crrmarchese" title="GitHub" rel="noreferrer"><FontAwesomeIcon icon={faGithubSquare} size="3x" /></a></li>
+                                    <li className="list-group-item"><a href="https://www.linkedin.com/in/catherinemarchese/" title="LinkedIn" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} size="2x" /></a></li>
+                                    <li className="list-group-item"><a href="https://github.com/crrmarchese" title="GitHub" rel="noreferrer"><FontAwesomeIcon icon={faGithubSquare} size="2x" /></a></li>
                                 </ul>
                             </Fade>
                             

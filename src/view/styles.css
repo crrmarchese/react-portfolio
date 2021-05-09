@@ -3,8 +3,17 @@ body {
 }
 
 .navbar-brand.logo_h img {
-    max-width: 90%;
+    max-width: 55%;
 }
+
+section {
+    margin-bottom: 5rem;
+}
+
+section.about{
+    margin-top: 2.75rem;
+}
+
 .test {
-    background-color: pink;
+    background-image: url(../images/divider.png) top center no-repeat;
 }

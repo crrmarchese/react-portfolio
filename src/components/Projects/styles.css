@@ -36,3 +36,11 @@
     font-size: 0.875rem;
     margin: 0 0.1875em;
 }
+
+.project-item a {
+    color: #3084F2;
+}
+
+.project-item a:hover {
+    color: #1876f0;
+}
