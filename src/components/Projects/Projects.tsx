@@ -8,7 +8,7 @@ import './styles.css';
 
 const Projects = () => { 
     return (
-        <section id="portfolio" className="my-4 d-flex">
+        <section id="portfolio" className="my-4 d-flex portfolio">
              <Container>
                 <Row>
                     <Col xs={12}>

@@ -7,7 +7,7 @@ import cmarcData from "../../utils/cmarcData";
 const About = (props:any) => {
     
     return (
-        <section id="about" className="d-flex my-4">
+        <section id="about" className="d-flex my-4 about">
             <Container>
                 <Row>
                     <Col md={6}> 
