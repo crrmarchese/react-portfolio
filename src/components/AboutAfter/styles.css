@@ -1,0 +1,7 @@
+.about-after {
+    background-image:url(../../images/divider.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}

@@ -4,11 +4,12 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Image from 'react-bootstrap/Image';
 import cmarcData from "../../utils/cmarcData";
+import './styles.css';
 
 const About = (props:any) => {
     
     return (
-        <section id="about" className="d-flex about">
+        <section id="about" className="d-flex about test">
             <Container>
                 <Row>
                     <Col md={6}> 
@@ -22,9 +23,8 @@ const About = (props:any) => {
                         
                     </Col>
                 </Row>
-
             </Container>
-          <div className="test"></div> 
+         
         </section>
     )
 }

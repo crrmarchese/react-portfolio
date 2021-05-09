@@ -5,7 +5,7 @@ import Col from "react-bootstrap/Col";
 
 const Contact = () => {
     return (
-        <section id="contact" className="my-4 d-flex contact"> 
+        <section id="contact" className="d-flex contact"> 
             <Container>
                 <Row>
                     <Col xs={12}>
