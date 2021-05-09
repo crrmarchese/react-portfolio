@@ -8,12 +8,6 @@
     cursor: pointer;
 }
 
-/* .project-item:hover {
-    -webkit-box-shadow: 1px 6px 23px 0px rgba(153,153,153,1);
-    -moz-box-shadow: 1px 6px 23px 0px rgba(153,153,153,1);
-    box-shadow: 1px 6px 23px 0px rgba(153,153,153,1);
-} */
-
 .project-item img {
     -webkit-transition: all .3s linear;
     transition: all .3s linear;
