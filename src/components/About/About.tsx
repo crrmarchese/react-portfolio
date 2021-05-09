@@ -10,12 +10,12 @@ const About = (props:any) => {
         <section id="about" className="d-flex my-4">
             <Container>
                 <Row>
-                    <Col> 
+                    <Col md={6}> 
                     <div className="title">
                         <h2>{cmarcData.aboutme}</h2> 
                     </div>
                     <p>{cmarcData.aboutdetails}</p></Col>
-                    <Col>2 of 2</Col>
+                    <Col md={6}>2 of 2</Col>
                 </Row>
 
             </Container>

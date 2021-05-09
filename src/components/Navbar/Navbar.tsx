@@ -64,7 +64,7 @@ const NavbarNav = (props:any) => {
                     <Link
                       className="nav-link"
                       activeClass="active"
-                      to="/contact"
+                      to="contact"
                       spy={true}
                       smooth={true}
                       offset={-70}
