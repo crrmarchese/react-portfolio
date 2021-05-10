@@ -105,3 +105,6 @@ dist
 
 # Old Code
 old-code/
+
+#Build Folder
+build/
