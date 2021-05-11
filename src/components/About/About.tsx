@@ -4,6 +4,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Image from 'react-bootstrap/Image';
 import cmarcData from "../../utils/cmarcData";
+import Aboutme from "../../images/who-i-am.png"
 import './styles.css';
 
 const About = (props:any) => {
@@ -19,7 +20,7 @@ const About = (props:any) => {
                     <p>{cmarcData.aboutdetails}</p></Col>
                     <Col md={6}>
 
-                        <Image src={"../../images/" + cmarcData.aboutimage} alt={cmarcData.role} />
+                        <Image src={Aboutme} alt={cmarcData.role} />
                         
                     </Col>
                 </Row>
