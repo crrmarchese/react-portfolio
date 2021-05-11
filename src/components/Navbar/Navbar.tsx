@@ -4,6 +4,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Container from "react-bootstrap/Container";
 import { Link } from "react-scroll";
 import './styles.css';
+import Logo from "../../images/logo.png"
 
 
 const NavbarNav = (props:any) => {
@@ -16,7 +17,7 @@ const NavbarNav = (props:any) => {
           <Navbar collapseOnSelect  variant="light" expand="lg">
             <Container>
               <Navbar.Brand href="./" className="logo_h"> 
-               <img src={"../../images/" + props.mainlogo} alt="Personal logo"  />
+               <img src={Logo} alt="Personal logo"  />
              </Navbar.Brand>
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">
