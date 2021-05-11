@@ -2,6 +2,7 @@ import React from "react";
 import Col from "react-bootstrap/Col";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithubSquare } from "@fortawesome/free-brands-svg-icons";
+import cmarcData from "../../utils/cmarcData";
 
 const Project = (props:any)  => {
     // console.log(props);
@@ -11,7 +12,7 @@ const Project = (props:any)  => {
         <Col md={6}>
                 <div className="project-item">
                 <a href={`${project.projURL}`}>
-                    <img src={`/images/${project.projImage}`} alt={`${project.projName}`} className="img-fluid" />
+                    <img src={`${cmarcData.baseURL}/images/${project.projImage}`} alt={`${project.projName}`} className="img-fluid" />
                 </a>
                 <div className="content">
                     <div className="category">

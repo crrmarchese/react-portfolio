@@ -1,6 +1,7 @@
 const cmarcData = {
     name: "Cathy Marchese",
     role: "Front-End Developer",
+    baseURL: "https://crrmarchese.github.io/react-portfolio/",
     socialLinks: [
       {
         name: "linkedin",
